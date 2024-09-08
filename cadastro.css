@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background: radial-gradient(#ffbb00, #cf9800);
+    padding: 10px 0;
+}
+.menu {
+    text-align: center;
+}
+.menu h1 {
+    margin: 0;
+}
+
+.icone h2 {
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.icone h2 span {
+    color: #5e2200;
+}
+
+.icone p {
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#cadastro-nav a{
+    color: #ffffff;
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#formulario {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container2 {
+    background-color: red;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    color: aliceblue;
+    border-top: 1px solid #ddd; 
+}
+
+footer a {
+    color: #cf9800;
+    text-decoration: none;
+}
+
+.cad{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cad h1{
+    background-color: #ffbb00;
+}
